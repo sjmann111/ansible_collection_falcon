@@ -5,6 +5,56 @@ Ansible CrowdStrike Falcon Collection Release Notes
 .. contents:: Topics
 
 
+v3.2.26
+=======
+
+Release Summary
+---------------
+
+| Release Date: 2022-12-27
+| `Release Notes: <https://github.com/CrowdStrike/ansible_collection_falcon/releases/tag/3.2.26>`__
+
+
+Bugfixes
+--------
+
+- falcon_install - Fix issue with non-linux systems being affected by `falcon_os_arch` variable (https://github.com/CrowdStrike/ansible_collection_falcon/pull/284)
+
+v3.2.25
+=======
+
+Release Summary
+---------------
+
+| Release Date: 2022-12-22
+| `Release Notes: <https://github.com/CrowdStrike/ansible_collection_falcon/releases/tag/3.2.25>`__
+
+
+Bugfixes
+--------
+
+- falcon_install - Fixed support for s390x that was causing issues for the other archs (https://github.com/CrowdStrike/ansible_collection_falcon/pull/281)
+
+v3.2.24
+=======
+
+Release Summary
+---------------
+
+| Release Date: 2022-12-22
+| `Release Notes: <https://github.com/CrowdStrike/ansible_collection_falcon/releases/tag/3.2.24>`__
+
+
+Minor Changes
+-------------
+
+- falcon_install falcon_configure - Refactored API authentication for better useability (https://github.com/CrowdStrike/ansible_collection_falcon/pull/273)
+
+Bugfixes
+--------
+
+- falcon_install - fix issue with sensor update policies and arch support (https://github.com/CrowdStrike/ansible_collection_falcon/pull/276)
+
 v3.2.23
 =======
 
